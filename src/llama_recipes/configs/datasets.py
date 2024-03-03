@@ -30,5 +30,4 @@ class alpaca_dataset:
 class custom_dataset:
     dataset: str = "custom_dataset"
     file: str = "examples/custom_dataset.py"
-    train_split: str = "train"
-    test_split: str = "validation"
+    train_split: str = "src/llama_recipes/datasets/energy.csv"
